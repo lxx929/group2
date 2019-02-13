@@ -15,6 +15,7 @@ body {
 
 section {
     flex: 1;
+    overflow-y: auto;
     .list {
         width: 100%;
         height: pxTorem(100px);
@@ -73,6 +74,34 @@ section {
             }
         }
     }
+    .jp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        box-sizing: border-box;
+        .title {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .jp_list {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            dl {
+                width: 100%;
+                display: flex;
+                border-bottom: 1px solid #ccc;
+                padding: 5px 0;
+                box-sizing: border-box;
+                dd {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
 }
 
 footer {
@@ -80,6 +109,7 @@ footer {
     height: pxTorem(60px);
     background: #fff;
     display: flex;
+    flex-shrink: 0;
     dl {
         flex: 1;
         display: flex;
