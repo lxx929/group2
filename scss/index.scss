@@ -73,6 +73,34 @@ section {
             }
         }
     }
+    .cont {
+        .cont-header {
+            b {
+                font-weight: bold;
+            }
+            span {
+                font-size: 36px;
+                float: right;
+                padding-top: 15px;
+                padding-right: 20px;
+            }
+        }
+        .cont-container {
+            width: 100%;
+            overflow-x: auto;
+            .cont-container-s {
+                width: 100%;
+                padding: 20px;
+                display: flex;
+                .cont-container-s {
+                    dl {
+                        width: 22%;
+                        margin-right: 35px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 footer {
