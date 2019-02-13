@@ -1,7 +1,56 @@
-    @import "_mixin.scss";
-    @import "common.scss";
-    html,
-    body {
+@import "_mixin.scss";
+@import "common.scss";
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    @include box_flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+    .link {
         width: 100%;
-        height: 100%;
+        height: pxTorem(345px);
+        padding: 0 pxTorem(10px);
+        @include sizing;
+        h2 {
+            width: 100%;
+            height: pxTorem(30px);
+            font-size: pxTorem(16px);
+            @include box_flex;
+            @include align;
+            margin-bottom: pxTorem(5px);
+            font-weight: bold;
+        }
+        .list-dl {
+            width: 100%;
+            height: pxTorem(310px);
+            @include box_flex;
+            flex-wrap: wrap;
+            @include align;
+            dl {
+                width: pxTorem(110px);
+                height: pxTorem(143px);
+                margin-right: pxTorem(8px);
+                dt {
+                    width: 100%;
+                    height: pxTorem(110px);
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                dd {
+                    font-size: pxTorem(14px);
+                }
+            }
+        }
     }
+}
