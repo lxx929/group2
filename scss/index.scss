@@ -54,8 +54,8 @@ header {
 }
 
 section {
-    flex: 1;
     overflow-y: auto;
+    flex: 1;
     .list {
         width: 100%;
         height: pxTorem(100px);
@@ -110,6 +110,34 @@ section {
                 }
                 dd {
                     font-size: pxTorem(14px);
+                }
+            }
+        }
+    }
+    .cont {
+        .cont-header {
+            b {
+                font-weight: bold;
+            }
+            span {
+                font-size: 36px;
+                float: right;
+                padding-top: 15px;
+                padding-right: 20px;
+            }
+        }
+        .cont-container {
+            width: 100%;
+            overflow-x: auto;
+            .cont-container-s {
+                width: 100%;
+                padding: 20px;
+                display: flex;
+                .cont-container-s {
+                    dl {
+                        width: 22%;
+                        margin-right: 35px;
+                    }
                 }
             }
         }

@@ -243,8 +243,8 @@ header .banner img {
 }
 
 section {
-  flex: 1;
   overflow-y: auto;
+  flex: 1;
 }
 
 section .list {
@@ -325,6 +325,33 @@ section .link .list-dl dl dt img {
 
 section .link .list-dl dl dd {
   font-size: 0.37333rem;
+}
+
+section .cont .cont-header b {
+  font-weight: bold;
+}
+
+section .cont .cont-header span {
+  font-size: 36px;
+  float: right;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+section .cont .cont-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+section .cont .cont-container .cont-container-s {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+section .cont .cont-container .cont-container-s .cont-container-s dl {
+  width: 22%;
+  margin-right: 35px;
 }
 
 section .jp {
