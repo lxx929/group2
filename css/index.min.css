@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body,
 div,
@@ -183,3 +184,6 @@ body {
     width: 100%;
     height: 100%
 }
+=======
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video,input{margin:0;padding:0;border:none;outline:0;font-family:STHeitiSC-Light;font:inherit;vertical-align:baseline}html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none}html,body{width:100%;height:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{font-family:arial, sans-serif}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}ins,a{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}img{display:inline-block}input,textarea{border:none;background:none;outline:none;-webkit-appearance:none}*{-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;-o-tap-highlight-color:transparent}html{font-size:37.5px}html,body{width:100%;height:100%}.wrapper{width:100%;height:100%;display:flex;display:-webkit-flex;flex-direction:column}section{flex:1}section .link{width:100%;height:9.2rem;padding:0 .26667rem;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}section .link h2{width:100%;height:.8rem;font-size:.42667rem;display:flex;display:-webkit-flex;-webkit-align-items:center;align-items:center;margin-bottom:.13333rem;font-weight:bold}section .link .list-dl{width:100%;height:8.26667rem;display:flex;display:-webkit-flex;flex-wrap:wrap;-webkit-align-items:center;align-items:center}section .link .list-dl dl{width:2.93333rem;height:3.81333rem;margin-right:.21333rem}section .link .list-dl dl dt{width:100%;height:2.93333rem}section .link .list-dl dl dt img{width:100%;height:100%}section .link .list-dl dl dd{font-size:.37333rem}
+>>>>>>> 567d33e1c3cc0e4f8017dc11fe9d3b4d7acfa0aa

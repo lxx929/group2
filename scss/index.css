@@ -187,42 +187,6 @@ body {
   height: 100%;
 }
 
-.list {
-  width: 100%;
-  height: 2.66667rem;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.list > dl {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  align-items: center;
-}
-
-.list > dl > img {
-  width: 1.33333rem;
-  height: 1.33333rem;
-}
-
-footer {
-  width: 100%;
-  height: 1.6rem;
-  background: #fff;
-  display: flex;
-}
-
-footer dl {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  align-items: center;
-}
 .wrapper {
   width: 100%;
   height: 100%;
@@ -235,10 +199,6 @@ footer dl {
 
 section {
   flex: 1;
-}
-
-section .link {
-  width: 100%;
   height: 9.2rem;
   padding: 0 0.26667rem;
   -webkit-box-sizing: border-box;
@@ -248,7 +208,49 @@ section .link {
   box-sizing: border-box;
 }
 
-section .link h2 {
+section .link {
+  width: 100%;
+  height: 100%;
+}
+
+section .list {
+  width: 100%;
+  height: 2.66667rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .list > dl {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+section .list > dl > img {
+  width: 1.33333rem;
+  height: 1.33333rem;
+}
+
+section footer {
+  width: 100%;
+  height: 1.6rem;
+  background: #fff;
+  display: flex;
+}
+
+section footer dl {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+section h2 {
   width: 100%;
   height: 0.8rem;
   font-size: 0.42667rem;
@@ -262,7 +264,7 @@ section .link h2 {
   font-weight: bold;
 }
 
-section .link .list-dl {
+section .list-dl {
   width: 100%;
   height: 8.26667rem;
   display: flex;
@@ -274,22 +276,22 @@ section .link .list-dl {
   align-items: center;
 }
 
-section .link .list-dl dl {
+section .list-dl dl {
   width: 2.93333rem;
   height: 3.81333rem;
   margin-right: 0.21333rem;
 }
 
-section .link .list-dl dl dt {
+section .list-dl dl dt {
   width: 100%;
   height: 2.93333rem;
 }
 
-section .link .list-dl dl dt img {
+section .list-dl dl dt img {
   width: 100%;
   height: 100%;
 }
 
-section .link .list-dl dl dd {
+section .list-dl dl dd {
   font-size: 0.37333rem;
 }
