@@ -13,6 +13,46 @@ body {
     flex-direction: column;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    .banner {
+        width: 100%;
+        flex: 1;
+        color: #fff;
+        .nav {
+            color: #fff;
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            height: 1.17333rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 .4rem;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            span {
+                font-size: .4rem;
+            }
+            span:nth-child(2) i {
+                margin: 15px
+            }
+        }
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
 section {
     flex: 1;
     overflow-y: auto;
