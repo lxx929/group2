@@ -77,13 +77,14 @@ mark,
 audio,
 video,
 input {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: 0;
-  font-family: STHeitiSC-Light;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    font-family: STHeitiSC-Light;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 html,
@@ -98,13 +99,13 @@ h3,
 h4,
 h5,
 h6 {
-  -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 article,
@@ -118,73 +119,108 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
 body {
-  font-family: arial, sans-serif;
+    font-family: arial, sans-serif;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 ins,
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 img {
-  display: inline-block;
+    display: inline-block;
 }
 
 input,
 textarea {
-  border: none;
-  background: none;
-  outline: none;
-  -webkit-appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    -webkit-appearance: none;
 }
 
 * {
-  -webkit-tap-highlight-color: transparent;
-  -moz-tap-highlight-color: transparent;
-  -ms-tap-highlight-color: transparent;
-  -o-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    -o-tap-highlight-color: transparent;
 }
+
 
 /*html {
     font-size: $browser-default-font-size;
 }*/
+
 html {
-  font-size: 37.5px;
+    font-size: 37.5px;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-header {
+    width: 100%;
+    font-size: 46px;
+}
+
+.cont-header>b {
+    font-weight: bold;
+}
+
+.cont-header>span {
+    font-size: 36px;
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.cont-container {
+    width: 100%;
+    overflow-x: auto;
+    /* overflow: hidden; */
+}
+
+.cont-container>.cont-container-s {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.cont-container>.cont-container-s>dl {
+    width: 22%;
+    margin-right: 35px;
 }
